@@ -14,7 +14,6 @@
 		2F783D78187A43D9002550F5 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F783D77187A43D9002550F5 /* AboutViewController.m */; };
 		2F783D7C187A4A83002550F5 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F783D7B187A4A83002550F5 /* MessageViewController.m */; };
 		2F783D7F187A5679002550F5 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F783D7E187A5679002550F5 /* ContactViewController.m */; };
-		2F783D81187A7175002550F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F783D80187A7175002550F5 /* Images.xcassets */; };
 		2F783D87187A8854002550F5 /* CSeriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F783D86187A8854002550F5 /* CSeriesViewController.m */; };
 		2F783D8B187AA1DA002550F5 /* NotamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F783D8A187AA1DA002550F5 /* NotamCell.m */; };
 		2F783D8D187AA26D002550F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F783D8C187AA26D002550F5 /* QuartzCore.framework */; };
@@ -54,17 +53,16 @@
 		2F1A2ED319CC03F500904AB4 /* inotam_bg_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inotam_bg_empty.png; sourceTree = "<group>"; };
 		2F1A2ED419CC03F500904AB4 /* bg_notam.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bg_notam.gif; sourceTree = "<group>"; };
 		2F1A2ED719CC066A00904AB4 /* bg_top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_top.jpg; sourceTree = "<group>"; };
-		2F3EF124187BCCD00032C12F /* ASeriesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASeriesViewController.h; sourceTree = "<group>"; };
-		2F783D741876AEFD002550F5 /* ASeriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASeriesViewController.m; sourceTree = "<group>"; };
-		2F783D76187A43D9002550F5 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
-		2F783D77187A43D9002550F5 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		2F783D7A187A4A83002550F5 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
-		2F783D7B187A4A83002550F5 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
-		2F783D7D187A5679002550F5 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
-		2F783D7E187A5679002550F5 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
-		2F783D80187A7175002550F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2F783D85187A8854002550F5 /* CSeriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSeriesViewController.h; sourceTree = "<group>"; };
-		2F783D86187A8854002550F5 /* CSeriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSeriesViewController.m; sourceTree = "<group>"; };
+		2F3EF124187BCCD00032C12F /* ASeriesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ASeriesViewController.h; path = ../../iNotam/Views/ASeriesViewController.h; sourceTree = "<group>"; };
+		2F783D741876AEFD002550F5 /* ASeriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASeriesViewController.m; path = ../../iNotam/Views/ASeriesViewController.m; sourceTree = "<group>"; };
+		2F783D76187A43D9002550F5 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../../iNotam/Views/AboutViewController.h; sourceTree = "<group>"; };
+		2F783D77187A43D9002550F5 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../../iNotam/Views/AboutViewController.m; sourceTree = "<group>"; };
+		2F783D7A187A4A83002550F5 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageViewController.h; path = ../../iNotam/Views/MessageViewController.h; sourceTree = "<group>"; };
+		2F783D7B187A4A83002550F5 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageViewController.m; path = ../../iNotam/Views/MessageViewController.m; sourceTree = "<group>"; };
+		2F783D7D187A5679002550F5 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactViewController.h; path = ../../iNotam/Views/ContactViewController.h; sourceTree = "<group>"; };
+		2F783D7E187A5679002550F5 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactViewController.m; path = ../../iNotam/Views/ContactViewController.m; sourceTree = "<group>"; };
+		2F783D85187A8854002550F5 /* CSeriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSeriesViewController.h; path = ../../iNotam/Views/CSeriesViewController.h; sourceTree = "<group>"; };
+		2F783D86187A8854002550F5 /* CSeriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSeriesViewController.m; path = ../../iNotam/Views/CSeriesViewController.m; sourceTree = "<group>"; };
 		2F783D89187AA1DA002550F5 /* NotamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotamCell.h; sourceTree = "<group>"; };
 		2F783D8A187AA1DA002550F5 /* NotamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotamCell.m; sourceTree = "<group>"; };
 		2F783D8C187AA26D002550F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -90,21 +88,21 @@
 		F4EECF1B177C99F400778578 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4EECF1D177C99F400778578 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4EECF1F177C99F400778578 /* iNotam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iNotam-Prefix.pch"; sourceTree = "<group>"; };
-		F4EECF20177C99F400778578 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F4EECF21177C99F400778578 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4EECF20177C99F400778578 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../iNotam/AppDelegate.h; sourceTree = "<group>"; };
+		F4EECF21177C99F400778578 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../iNotam/AppDelegate.m; sourceTree = "<group>"; };
 		F4EECF23177C99F400778578 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F4EECF25177C99F400778578 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F4EECF27177C99F400778578 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F4EECF2A177C99F400778578 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F4EECF2C177C99F400778578 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		F4EECF2D177C99F400778578 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		F4EECF48177DF87700778578 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
-		F4EECF49177DF87700778578 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		F4EECF2C177C99F400778578 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../iNotam/MainViewController.h; sourceTree = "<group>"; };
+		F4EECF2D177C99F400778578 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../iNotam/MainViewController.m; sourceTree = "<group>"; };
+		F4EECF48177DF87700778578 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarViewController.h; path = ../iNotam/SidebarViewController.h; sourceTree = "<group>"; };
+		F4EECF49177DF87700778578 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarViewController.m; path = ../iNotam/SidebarViewController.m; sourceTree = "<group>"; };
 		F4EECF65177F4AB000778578 /* nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg.png; sourceTree = "<group>"; };
 		F4EECF68177F4C0200778578 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		F4EECF69177F4C0200778578 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
-		F4EECF6C177FD51300778578 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		F4EECF6D177FD51300778578 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		F4EECF6C177FD51300778578 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../iNotam/MapViewController.h; sourceTree = "<group>"; };
+		F4EECF6D177FD51300778578 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../iNotam/MapViewController.m; sourceTree = "<group>"; };
 		F4EECF6F177FE9B400778578 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F4EECF71177FE9BA00778578 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -167,7 +165,8 @@
 				2F783D89187AA1DA002550F5 /* NotamCell.h */,
 				2F783D8A187AA1DA002550F5 /* NotamCell.m */,
 			);
-			path = Cell;
+			name = Cell;
+			path = ../../iNotam/Views/Cell;
 			sourceTree = "<group>";
 		};
 		2F783D93187B99AE002550F5 /* web */ = {
@@ -224,7 +223,6 @@
 				F4EECF6C177FD51300778578 /* MapViewController.h */,
 				F4EECF6D177FD51300778578 /* MapViewController.m */,
 				F4EECF34177C9A1E00778578 /* Library */,
-				2F783D80187A7175002550F5 /* Images.xcassets */,
 				F4EECF18177C99F400778578 /* Supporting Files */,
 			);
 			name = iNotam;
@@ -245,6 +243,7 @@
 				F4EECF27177C99F400778578 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = ../iNotam;
 			sourceTree = "<group>";
 		};
 		F4EECF34177C9A1E00778578 /* Library */ = {
@@ -256,6 +255,7 @@
 				F4D9AD1E1871725500E2D912 /* SWRevealViewController.m */,
 			);
 			name = Library;
+			path = ../iNotam/Library;
 			sourceTree = "<group>";
 		};
 		F4EECF53177F37CB00778578 /* Images */ = {
@@ -329,7 +329,6 @@
 				2F783D91187AA786002550F5 /* aeromongolia.png in Resources */,
 				2F971F79187BF62D00587A07 /* c-series.png in Resources */,
 				F4EECF1C177C99F400778578 /* InfoPlist.strings in Resources */,
-				2F783D81187A7175002550F5 /* Images.xcassets in Resources */,
 				F4EECF24177C99F400778578 /* Default.png in Resources */,
 				2F971F6B187BF35000587A07 /* notam_logo.png in Resources */,
 				F4EECF26177C99F400778578 /* Default@2x.png in Resources */,
@@ -391,6 +390,7 @@
 				F4EECF2A177C99F400778578 /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = ../iNotam;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -460,8 +460,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Enkhtuvshin Gansukh (KPH9B4BY3M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SidebarDemo/iNotam-Prefix.pch";
-				INFOPLIST_FILE = "SidebarDemo/iNotam-Info.plist";
+				GCC_PREFIX_HEADER = "iNotam/iNotam-Prefix.pch";
+				INFOPLIST_FILE = "iNotam/iNotam-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = iNotam;
 				PROVISIONING_PROFILE = "98e94834-aff1-423d-aa7b-20ae8b161d12";
@@ -477,8 +477,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Enkhtuvshin Gansukh (KPH9B4BY3M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SidebarDemo/iNotam-Prefix.pch";
-				INFOPLIST_FILE = "SidebarDemo/iNotam-Info.plist";
+				GCC_PREFIX_HEADER = "iNotam/iNotam-Prefix.pch";
+				INFOPLIST_FILE = "iNotam/iNotam-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = iNotam;
 				PROVISIONING_PROFILE = "98e94834-aff1-423d-aa7b-20ae8b161d12";
